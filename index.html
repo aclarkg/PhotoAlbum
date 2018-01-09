@@ -1,12 +1,71 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html>
 <head>
-<title>Page Title</title>
+<meta name="viewport" content="width=device-width, 
+    initial-scale=1, maximum-scale=1, user-scalable=no">
+ <link rel="stylesheet" href="css/normalize.css">
+    <link href="css/bootstrap.css" rel="stylesheet" />
+   <link rel="stylesheet" href="css/style.css">
+<title>Photo Album</title>
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
 </head>
 <body>
 
-<h1>My First Heading</h1>
-<p>My first paragraph.</p>
+    <div class="topnav" id="myTopnav">
+        <a href="#home" class="active">Home</a>
+        <a href="photoPages/clark.html">CLARK</a>
+        <a href="photoPages/thomas.html">THOMAS</a>
+        <a href="photoPages/garrett.html">GARRETT</a>
+        <a href="photoPages/gulick.html">GULICK</a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
+      </div>
 
+<style>
+  body {background-color: lightgray}
+  p {color:red; 
+    font-family: "Times New Roman", Times, serif;
+    font-size: 2.5em;
+  }
+  h1 {color: black; font-size: 3em;}
+</style>
+<h1>PHOTO ALBUM</h1>
+<h2>Some photos related to the ancestry of ALAN CLARK GULICK, proven and probable. Click on menu surnames to view. For detailed genealogy see: <a href="http://wc.rootsweb.ancestry.com/cgi-bin/igm.cgi?op=SHOW&db=marinedthomas&recno=72">Rootsweb</a></h2>
+
+<style>
+  img {
+      border: 1px solid #ddd; /* Gray border */
+      border-radius: 4px;  /* Rounded border */
+      padding: 5px; /* Some padding */
+      /* center */
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      width: 40%;
+  }
+  
+  /* Add a hover effect (blue shadow) */
+  img:hover {
+      box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+  }
+  </style>
+  <body>
+  
+  <a target="_blank" href="images/imgClark/USmap.jpg">
+    <img src="images/imgClark/USmap.jpg" alt="US map.">
+  </a>
+  <div id="text-index" style="display: block;"> 
+      <h1>USA</h1>
+      <p>America</p>
+    </div>
+  </body>
+
+
+<!--<script src="/js/jquery-3.2.1.min.js"></script> cdn version below-->
+
+<script
+  src="https://code.jquery.com/jquery-3.2.1.min.js"
+  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+  crossorigin="anonymous"></script>
+<script src="js/app.js"></script>
 </body>
 </html>
