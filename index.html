@@ -8,6 +8,7 @@
    <link rel="stylesheet" href="css/style.css">
 <title>Photo Album</title>
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
+
 </head>
 <body>
 
@@ -48,7 +49,7 @@
       box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
   }
   </style>
-  <body>
+  
   
   <a target="_blank" href="images/imgClark/USmap.jpg">
     <img src="images/imgClark/USmap.jpg" alt="US map.">
@@ -57,7 +58,9 @@
       <h1>USA</h1>
       <p>America</p>
     </div>
-  </body>
+  <style>
+    h1 {color:white;}
+  </style>
 
 
 <!--<script src="/js/jquery-3.2.1.min.js"></script> cdn version below-->
@@ -67,5 +70,11 @@
   integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
   crossorigin="anonymous"></script>
 <script src="js/app.js"></script>
+<!-- animate text with jquery -->
+<script>
+  $(document).ready(function(){
+      $("#text-index").animate({fontSize: '35px'}, "slow");
+  });
+</script>
 </body>
 </html>
