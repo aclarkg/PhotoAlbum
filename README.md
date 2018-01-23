@@ -1,2 +1,2 @@
 # PhotoAlbum
-Project for Code Louisville Front End Track. Album of family related photos. Uses javaScript and jQuery.
+Project for Code Louisville Front End Track. Album of family related photos, uses javaScript, jQuery and is reponsive.
