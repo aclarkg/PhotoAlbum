@@ -1,2 +1,2 @@
 # PhotoAlbum
-Project for Code Louisville Front End Track. Album of family related photos, uses javaScript, jQuery and is reponsive.
+Project for Code Louisville Front End Track. Genealogy album of family related photos, uses javaScript, jQuery and is reponsive. Javascript function in app.js aids in making navbar responsive, I ended up not using the hide/show function, but got it to work. In styles.css I targeted quite a few classes for styling, etc... Inline jquery on index.html makes part of home page move.
